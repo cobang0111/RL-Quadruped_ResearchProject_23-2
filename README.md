@@ -27,16 +27,18 @@
 
 - First Solidworks Model
 
+
 <p align="center"><img width="800" src="g"></p>
 
 
 - First SAC Try (Reward = Difference of joint 1 angle for each step, time_steps = 3000) 
 
-<p align="center"><img width="800" src="https://github.com/cobang0111/DRL_2023_Fall/blob/main/3_SAC_231108_1.gif?raw=true"></p>
- 
-- DRL our model by PyTorch SAC
 
-<p align="center">First Code</p>
+<p align="center"><img width="800" src="https://github.com/cobang0111/DRL_2023_Fall/blob/main/3_SAC_231108_1.gif?raw=true"></p>
+
+ 
+- First code of DRL our model by PyTorch SAC
+
 
 ```python
 from stable_baselines3.sac.policies import MlpPolicy
