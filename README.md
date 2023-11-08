@@ -28,7 +28,7 @@
 - First Solidworks Model
 
 
-<p align="center"><img width="800" src="g"></p>
+<p align="center"><img width="800" src="https://github.com/cobang0111/DRL_2023_Fall/blob/main/3_solidworks_model_v1.png?raw=true"></p>
 
 
 - First SAC Try (Reward = Difference of joint 1 angle for each step, time_steps = 3000) 
