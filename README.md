@@ -28,7 +28,7 @@
 
 - Result video of 1st week
   <br>
-  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/dcee41ee-5394-416f-8a70-bc528a846b8d">
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/blob/main/img/1_dqn_custom_cp.gif">
 
 <br>
 
@@ -38,11 +38,11 @@
 
 - We practice to use Mlp stable_baseline3 Soft-Actor Critic to train robot appropriately
   <br>
-  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/d824fadb-cc62-407a-9908-82510352b4f2">
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/blob/main/img/2_2d_pusher.gif">
 
 - Our 1st modeling + URDF Extraction form Solidworks → Self collision problem occur
   <br>
-  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/246bf0ee-b5f5-4411-9ac8-269ccec4a578">
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/blob/main/img/2_1st_model.gif">
 
 - We decide to make new hopping leg model without any prismatic link 
 
@@ -80,7 +80,7 @@
 
 - Result
   <br>
-  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/cd485bdc-4f84-46c1-ae2b-f7af207d907d">
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/blob/main/img/4_final_training.GIF">
 
  <br>
 
@@ -99,14 +99,19 @@
 - Height-Timestep Graph from Simulation
   <br>
   <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/56d8a654-65f8-4632-b614-0b62a5f89b0b">
+- Trained Hopping Motion
+  <br>
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/blob/main/img/5_hop.gif">
+- We obtained two velocity control factors as network outputs from the SAC network, and when applied, we created an effect of gear-ratio shifting by making the torque act as the value obtained by dividing maximum power by velocity.
+- By examining the actual graph, we could observe points plotted along the maximum power line, confirming that the network was trained to generate optimal torque and velocity necessary for the hopping action.
+  
 
-- We try to train Boston Dynamics SPOT using SAC but it failed
+- Additionally, we try to train Boston Dynamics SPOT using SAC but it failed
+  <br>
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/blob/main/img/5_SPOT.gif">
   
 - For the locomotion of quadruped robots, it appears necessary to employ more accurate reward functions, set end conditions, and set constraints
 
 			  
-
-## <div align="center">Reference</div>
-
 
 
