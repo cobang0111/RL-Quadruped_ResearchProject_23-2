@@ -23,9 +23,11 @@
 - We train the cart-pole system using DQN
 
 - Reward-Episode Graph
+  <br>
   <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/8ccdf01f-ce74-4428-a3b9-0454467532eb">
 
 - Result video of 1st week
+  <br>
   <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/dcee41ee-5394-416f-8a70-bc528a846b8d">
 
 <br>
@@ -35,9 +37,11 @@
 🚀 2nd Presentation
 
 - We practice to use Mlp stable_baseline3 Soft-Actor Critic to train robot appropriately
+  <br>
   <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/d824fadb-cc62-407a-9908-82510352b4f2">
 
 - Our 1st modeling + URDF Extraction form Solidworks → Self collision problem occur
+  <br>
   <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/246bf0ee-b5f5-4411-9ac8-269ccec4a578">
 
 - We decide to make new hopping leg model without any prismatic link 
@@ -50,11 +54,15 @@
 🚀 3rd Presentation
 
 - Our 2nd modeling
+  <br>
   <img width="600" src="https://github.com/cobang0111/DRL_2023_Fall/blob/main/3_solidworks_model_v1.png?raw=true">
 
 
 - First SAC Try (Reward = Difference of joint 1 angle for each step, total_episode = 3000)
-- <img width="600" src="https://github.com/cobang0111/DRL_2023_Fall/blob/main/3_SAC_231108_1.gif?raw=true">
+  <br>
+  <img width="600" src="https://github.com/cobang0111/DRL_2023_Fall/blob/main/3_SAC_231108_1.gif?raw=true">
+
+- We got feedback that the rotational axis can affect to hopper 
 
  <br>
 
@@ -62,7 +70,27 @@
 
 🚀 4th Presentation
 
-- Our 3rd modeling - we 
+- Our 3rd modeling
+  <br>
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/9ccc3ed3-1b02-4ee7-ac25-7190c05797c3">
+ 
+- To leverage the advantages of simulation, an experiment was conducted by setting a point mass of 10kg at the topmost link of a quadruped robot's leg
+
+- Initial Setting - Upper leg : 1kg / 500mm / -30˚ | Lower leg : 1kg / 500mm / 60˚
+
+- Result
+  <br>
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/cd485bdc-4f84-46c1-ae2b-f7af207d907d">
+
+ <br>
+
+---
+
+🚀 5th Presentation
+
+- We try to train Boston Dynamics SPOT using SAC but it failed
+- 
+- More constraint and need to modify reward function and terminal condition
 
 
 
