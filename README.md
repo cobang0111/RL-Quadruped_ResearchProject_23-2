@@ -2,7 +2,7 @@
 
 
 ## <div align="center">2023-2 연구프로젝트I </div>
-🚀 Optimizing Simulation of Hopping Action of Gear-Shifting Quadruped Robot Leg using SAC
+🚀 Hopping Simulation of Gear-Shifting Quadruped Robot Leg using SAC
 
 ## <div align="center">Team 서계</div>
 🌟 Team Leader 이창재 (서강대학교 기계공학과 19)
@@ -88,11 +88,21 @@
 
 🚀 5th Presentation
 
+- Ultimately, by training the hopping motion of a quadruped robot's legs in a simulation, we acquired data on the relationship between motor power, torque, and velocity during the execution of this action.
+- Ideal Torque-Velocity Graph
+  <br>
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/c9aad51a-191c-4487-a229-72c570629359">
+- We set the P_MAX as 10W
+- Torque-Velocity Graph from Simulation
+  <br>
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/15aa507a-7314-4c04-a092-ec69faa1677d">
+- Height-Timestep Graph from Simulation
+  <br>
+  <img width="600" src="https://github.com/cobang0111/RL-Quadruped_ResearchProject_23-2/assets/97373900/56d8a654-65f8-4632-b614-0b62a5f89b0b">
+
 - We try to train Boston Dynamics SPOT using SAC but it failed
-- 
-- More constraint and need to modify reward function and terminal condition
-
-
+  
+- For the locomotion of quadruped robots, it appears necessary to employ more accurate reward functions, set end conditions, and set constraints
 
 			  
 
